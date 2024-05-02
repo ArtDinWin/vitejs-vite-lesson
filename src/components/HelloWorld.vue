@@ -1,6 +1,15 @@
 <script setup>
-import { ref } from 'vue';
-const title = ref('123');
+import { ref, reactive, computed } from 'vue';
+const title = ref('Полный курс Vue 3 | #5 Форма отзыва с фото во Vue');
+
+const review = reactive({
+  author: '',
+  stars: null,
+  text: '',
+  photos: [],
+  isRecomended: true
+})
+
 </script>
 
 <template>
@@ -8,6 +17,9 @@ const title = ref('123');
 </template>
 
 <style scoped lang="scss">
+h1 {
+  font-size: 25px;
+}
 .read-the-docs {
   color: #888;
 }
