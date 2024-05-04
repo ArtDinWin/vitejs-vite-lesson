@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import FormReport from './components/FormReport.vue'
 </script>
 
 <template> 
-  <HelloWorld msg="Vite + Vue" />
+  <FormReport/>
 </template>
 
 <style scoped>
