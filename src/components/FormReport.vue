@@ -1,9 +1,7 @@
 <script setup>
 import { ref, reactive, computed } from 'vue';
 import axios from "axios";
-
-const title = ref('Полный курс Vue 3 | #5 Форма отзыва с фото во Vue');
-
+const title = ref('#5 Форма отзыва с фото во Vue');
 const review = reactive({
   author: 'Артур',
   stars: "1",
@@ -11,7 +9,6 @@ const review = reactive({
   photo: null,
   isRecomended: true
 });
-
 const previewFilePath = computed(()=>{
   if(review.photo){
     const srcPhoto = URL.createObjectURL(review.photo);
@@ -20,7 +17,6 @@ const previewFilePath = computed(()=>{
   }
   return "#";
 })
-
 const stars = [1,2,3,4,5];
 const submit = () => {
   console.log("Отправленно!");
@@ -43,12 +39,9 @@ const uploadPhoto = (e) => {
   const [file] = e.target.files; // чтобы не e.target.files[0]
   review.photo = file;
 }
-
-
 </script>
-
 <template>
-  <h1>{{ title }}</h1>
+  <h2>{{ title }}</h2>
   <p>
     Автор: {{ review.author }}
   </p>
@@ -113,7 +106,6 @@ const uploadPhoto = (e) => {
       </form>
   <!-- /.container -->
 </template>
-
 <style scoped lang="scss">
 h1 {
   font-size: 25px;
