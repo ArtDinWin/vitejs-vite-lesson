@@ -15,3 +15,4 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 - отправка данных на сервер через axios
 
 ![Preview](https://github.com/ArtDinWin/vitejs-vite-lesson/blob/main/public/Form.jpg)
+
