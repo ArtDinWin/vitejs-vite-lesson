@@ -6,7 +6,7 @@ import {reactive} from 'vue';
 // первый способ обращения к компонентам это импорт SearchItemInit в main.js и регистрация app.component("SearchItemInit" , SearchItems)
 // второй способ обращения к компонентам FormReport и ComponentsSlots импорт в компоненте
 import FormReport from './components/FormReport.vue'
-import ComponentsSlots from './components/ComponentsSlots.vue'
+import LavrikLess1 from './components/LavrikLess1.vue'
 
 const title = ref('Полный курс Vue 3 | youtube lessons');
 
@@ -15,7 +15,7 @@ const activeTabs = reactive([
   {
     id: 1,
     name: "#1 Поиск товаров",
-    active : true,
+    active : false,
     component: "SearchItemInit"
   },
   {
@@ -26,9 +26,9 @@ const activeTabs = reactive([
   },
   {
     id:3,
-    name: "#3 Компоненты, слоты",
-    active : false,
-    component: ComponentsSlots
+    name: "#3 Lavrik, less1",
+    active : true,
+    component: LavrikLess1
   }
 ] );
 
