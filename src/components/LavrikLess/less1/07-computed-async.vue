@@ -2,6 +2,7 @@
 export default {
 	data(){
 				return {
+					title: "07-computed-async",
 					promo: '',
 					price: 1000,
 					sale: 0

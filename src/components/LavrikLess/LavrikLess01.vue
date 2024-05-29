@@ -8,6 +8,9 @@ import MethodsSoSo from './less1/04-methods-so-so.vue'
 import ComputedSale from './less1/06-computed-sale.vue'
 import ComputedAsync from './less1/07-computed-async.vue'
 import WatchVue from './less1/08-watch.vue'
+import ForVue from './less1/09-ForVue.vue'
+import CakeVue from './less1/11-cake.vue'
+
 
 export default {
   data() {
@@ -23,7 +26,9 @@ export default {
     MethodsSoSo,
     ComputedSale,
     ComputedAsync,
-    WatchVue   
+    WatchVue,
+    ForVue,
+    CakeVue   
   }
 }
 </script>
@@ -53,6 +58,8 @@ export default {
 <ComputedSale></ComputedSale>
 <ComputedAsync></ComputedAsync>
 <WatchVue></WatchVue>
+<ForVue></ForVue>
+<CakeVue></CakeVue>
 
 </template>
 

@@ -14,7 +14,8 @@ export default {
 					console.log('here');
 					return (this.firstName + ' ' + this.lastName).trim();
 				},
-        // some bad, на грани или за гранью философии vue...
+         // so-so или some bad, потому что вариант рабочий, но на грани или за гранью философии vue...Лучше использовать computed
+		 // но в него нельзя передавать аргумент
 				toUpper(str){
 					return str.toUpperCase().split('').reverse().join('');
 				}

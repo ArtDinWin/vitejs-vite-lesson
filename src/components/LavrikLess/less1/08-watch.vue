@@ -2,6 +2,7 @@
 export default {
 	data(){
 				return {
+					title: "08-watch",
 					promo: '',
 					price: 1000,
 					sale: 0
