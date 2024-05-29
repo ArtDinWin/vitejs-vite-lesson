@@ -4,6 +4,10 @@ import SampleLess from './less1/01SampleLess.vue'
 import CompositionApi from './less1/02CompositionApi.vue'
 import ScriptSetup from './less1/02ScriptSetup.vue'
 import MethodsLess from './less1/03Methods.vue'
+import MethodsSoSo from './less1/04-methods-so-so.vue'
+import ComputedSale from './less1/06-computed-sale.vue'
+import ComputedAsync from './less1/07-computed-async.vue'
+import WatchVue from './less1/08-watch.vue'
 
 export default {
   data() {
@@ -15,8 +19,11 @@ export default {
     SampleLess,
     CompositionApi, 
     ScriptSetup,
-    MethodsLess
-    
+    MethodsLess,
+    MethodsSoSo,
+    ComputedSale,
+    ComputedAsync,
+    WatchVue   
   }
 }
 </script>
@@ -42,6 +49,10 @@ export default {
 <CompositionApi></CompositionApi>
 <ScriptSetup></ScriptSetup>
 <MethodsLess></MethodsLess>
+<MethodsSoSo></MethodsSoSo>
+<ComputedSale></ComputedSale>
+<ComputedAsync></ComputedAsync>
+<WatchVue></WatchVue>
 
 </template>
 
