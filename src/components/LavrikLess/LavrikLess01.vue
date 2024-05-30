@@ -10,6 +10,9 @@ import ComputedAsync from './less1/07-computed-async.vue'
 import WatchVue from './less1/08-watch.vue'
 import ForVue from './less1/09-ForVue.vue'
 import CakeVue from './less1/11-cake.vue'
+import HomeWork from './less1/12-home-work.vue'
+import HomeWorkFocus from './less1/13-home-work-focus.vue'
+
 
 
 export default {
@@ -28,7 +31,9 @@ export default {
     ComputedAsync,
     WatchVue,
     ForVue,
-    CakeVue   
+    CakeVue,
+    HomeWork,
+    HomeWorkFocus   
   }
 }
 </script>
@@ -60,6 +65,8 @@ export default {
 <WatchVue></WatchVue>
 <ForVue></ForVue>
 <CakeVue></CakeVue>
+<HomeWork></HomeWork>
+<HomeWorkFocus></HomeWorkFocus>
 
 </template>
 
